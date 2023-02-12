@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon sever.js"
+    "start": "nodemon server.js"
   },
   "author": "Nhat Tran",
   "license": "ISC",
