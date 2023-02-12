@@ -11,7 +11,7 @@ router.route('/')
 router.route('/favorite')
     .get(contact.findAllFavorite)
 
-router.route(':/id')
+router.route('/:id')
     .get(contact.findOne)
     .put(contact.update)
     .delete(contact.delete)
